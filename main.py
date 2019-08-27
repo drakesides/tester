@@ -4,14 +4,4 @@ mtcars = pd.read_csv('https://gist.githubusercontent.com/seankross/a412dfbd88b3d
 print(mtcars)
 
 
-echo "# tester" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/drakesides/tester.git
-git push -u origin master
-
-git config --global user.email "lucasdrakesides@gmail.com"
-git config --global user.name "Lucas Drake Sides"
-
 
